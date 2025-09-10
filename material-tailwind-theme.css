@@ -1,0 +1,191 @@
+@theme{
+  /* 
+    Angular Material x Tailwind CSS Variable Mapping
+    ------------------------------------------------
+    This file maps Material Design System tokens (--mat-sys-*) to project-scoped CSS custom properties
+    compatible with Tailwind CSS v4 utility variable namespaces.
+
+    Usage:
+      - Use these variables via Tailwind utility classes, e.g.:
+          <div class="bg-mat-primary-container text-mat-on-surface">
+      - For theming, override the --mat-sys-* tokens globally (:root) or per scope (e.g., .theme-dark).
+      - Do not hardcode values; always use variables for maintainability and theme support.
+  */
+
+  /* ===========================
+     COLOR VARIABLES
+     Map Material color tokens to Tailwind-friendly CSS vars.
+     =========================== */
+  --color-mat-background: var(--mat-sys-background);
+  --color-mat-error: var(--mat-sys-error);
+  --color-mat-error-container: var(--mat-sys-error-container);
+  --color-mat-inverse-on-surface: var(--mat-sys-inverse-on-surface);
+  --color-mat-inverse-primary: var(--mat-sys-inverse-primary);
+  --color-mat-inverse-surface: var(--mat-sys-inverse-surface);
+  --color-mat-on-background: var(--mat-sys-on-background);
+  --color-mat-on-error: var(--mat-sys-on-error);
+  --color-mat-on-error-container: var(--mat-sys-on-error-container);
+  --color-mat-on-primary: var(--mat-sys-on-primary);
+  --color-mat-on-primary-container: var(--mat-sys-on-primary-container);
+  --color-mat-on-primary-fixed: var(--mat-sys-on-primary-fixed);
+  --color-mat-on-primary-fixed-variant: var(--mat-sys-on-primary-fixed-variant);
+  --color-mat-on-secondary: var(--mat-sys-on-secondary);
+  --color-mat-on-secondary-container: var(--mat-sys-on-secondary-container);
+  --color-mat-on-secondary-fixed: var(--mat-sys-on-secondary-fixed);
+  --color-mat-on-secondary-fixed-variant: var(--mat-sys-on-secondary-fixed-variant);
+  --color-mat-on-surface: var(--mat-sys-on-surface);
+  --color-mat-on-surface-variant: var(--mat-sys-on-surface-variant);
+  --color-mat-on-tertiary: var(--mat-sys-on-tertiary);
+  --color-mat-on-tertiary-container: var(--mat-sys-on-tertiary-container);
+  --color-mat-on-tertiary-fixed: var(--mat-sys-on-tertiary-fixed);
+  --color-mat-on-tertiary-fixed-variant: var(--mat-sys-on-tertiary-fixed-variant);
+  --color-mat-outline: var(--mat-sys-outline);
+  --color-mat-outline-variant: var(--mat-sys-outline-variant);
+  --color-mat-primary: var(--mat-sys-primary);
+  --color-mat-primary-container: var(--mat-sys-primary-container);
+  --color-mat-primary-fixed: var(--mat-sys-primary-fixed);
+  --color-mat-primary-fixed-dim: var(--mat-sys-primary-fixed-dim);
+  --color-mat-scrim: var(--mat-sys-scrim);
+  --color-mat-secondary: var(--mat-sys-secondary);
+  --color-mat-secondary-container: var(--mat-sys-secondary-container);
+  --color-mat-secondary-fixed: var(--mat-sys-secondary-fixed);
+
+  /* ===========================
+     FONT FAMILY VARIABLES
+     Map Material font family tokens.
+     =========================== */
+  --font-mat-body-large: var(--mat-sys-body-large-font);
+  --font-mat-body-medium: var(--mat-sys-body-medium-font);
+  --font-mat-body-small: var(--mat-sys-body-small-font);
+  --font-mat-display-large: var(--mat-sys-display-large-font);
+  --font-mat-display-medium: var(--mat-sys-display-medium-font);
+  --font-mat-display-small: var(--mat-sys-display-small-font);
+  --font-mat-headline-large: var(--mat-sys-headline-large-font);
+  --font-mat-headline-medium: var(--mat-sys-headline-medium-font);
+  --font-mat-headline-small: var(--mat-sys-headline-small-font);
+  --font-mat-label-large: var(--mat-sys-label-large-font);
+  --font-mat-label-medium: var(--mat-sys-label-medium-font);
+  --font-mat-label-small: var(--mat-sys-label-small-font);
+  --font-mat-title-large: var(--mat-sys-title-large-font);
+  --font-mat-title-medium: var(--mat-sys-title-medium-font);
+  --font-mat-title-small: var(--mat-sys-title-small-font);
+
+  /* ===========================
+     FONT SIZE VARIABLES
+     Map Material text size tokens.
+     =========================== */
+  --text-mat-body-large: var(--mat-sys-body-large-size);
+  --text-mat-body-medium: var(--mat-sys-body-medium-size);
+  --text-mat-body-small: var(--mat-sys-body-small-size);
+  --text-mat-display-large: var(--mat-sys-display-large-size);
+  --text-mat-display-medium: var(--mat-sys-display-medium-size);
+  --text-mat-display-small: var(--mat-sys-display-small-size);
+  --text-mat-headline-large: var(--mat-sys-headline-large-size);
+  --text-mat-headline-medium: var(--mat-sys-headline-medium-size);
+  --text-mat-headline-small: var(--mat-sys-headline-small-size);
+  --text-mat-label-large: var(--mat-sys-label-large-size);
+  --text-mat-label-medium: var(--mat-sys-label-medium-size);
+  --text-mat-label-small: var(--mat-sys-label-small-size);
+  --text-mat-title-large: var(--mat-sys-title-large-size);
+  --text-mat-title-medium: var(--mat-sys-title-medium-size);
+  --text-mat-title-small: var(--mat-sys-title-small-size);
+
+  /* ===========================
+     FONT WEIGHT VARIABLES
+     Map Material font weight tokens.
+     =========================== */
+  --font-weight-mat-body-large: var(--mat-sys-body-large-weight);
+  --font-weight-mat-body-medium: var(--mat-sys-body-medium-weight);
+  --font-weight-mat-body-small: var(--mat-sys-body-small-weight);
+  --font-weight-mat-display-large: var(--mat-sys-display-large-weight);
+  --font-weight-mat-display-medium: var(--mat-sys-display-medium-weight);
+  --font-weight-mat-display-small: var(--mat-sys-display-small-weight);
+  --font-weight-mat-headline-large: var(--mat-sys-headline-large-weight);
+  --font-weight-mat-headline-medium: var(--mat-sys-headline-medium-weight);
+  --font-weight-mat-headline-small: var(--mat-sys-headline-small-weight);
+  --font-weight-mat-label-large: var(--mat-sys-label-large-weight);
+  --font-weight-mat-label-large-prominent: var(--mat-sys-label-large-weight-prominent);
+  --font-weight-mat-label-medium: var(--mat-sys-label-medium-weight);
+  --font-weight-mat-label-medium-prominent: var(--mat-sys-label-medium-weight-prominent);
+  --font-weight-mat-label-small: var(--mat-sys-label-small-weight);
+  --font-weight-mat-title-large: var(--mat-sys-title-large-weight);
+  --font-weight-mat-title-medium: var(--mat-sys-title-medium-weight);
+  --font-weight-mat-title-small: var(--mat-sys-title-small-weight);
+
+  /* ===========================
+     LETTER SPACING (TRACKING)
+     Map Material tracking tokens.
+     =========================== */
+  --tracking-mat-body-large: var(--mat-sys-body-large-tracking);
+  --tracking-mat-body-medium: var(--mat-sys-body-medium-tracking);
+  --tracking-mat-body-small: var(--mat-sys-body-small-tracking);
+  --tracking-mat-display-large: var(--mat-sys-display-large-tracking);
+  --tracking-mat-display-medium: var(--mat-sys-display-medium-tracking);
+  --tracking-mat-display-small: var(--mat-sys-display-small-tracking);
+  --tracking-mat-headline-large: var(--mat-sys-headline-large-tracking);
+  --tracking-mat-headline-medium: var(--mat-sys-headline-medium-tracking);
+  --tracking-mat-headline-small: var(--mat-sys-headline-small-tracking);
+  --tracking-mat-label-large: var(--mat-sys-label-large-tracking);
+  --tracking-mat-label-medium: var(--mat-sys-label-medium-tracking);
+  --tracking-mat-label-small: var(--mat-sys-label-small-tracking);
+  --tracking-mat-title-large: var(--mat-sys-title-large-tracking);
+  --tracking-mat-title-medium: var(--mat-sys-title-medium-tracking);
+  --tracking-mat-title-small: var(--mat-sys-title-small-tracking);
+
+  /* ===========================
+     LINE HEIGHT (LEADING)
+     Map Material line height tokens.
+     =========================== */
+  --leading-mat-body-large: var(--mat-sys-body-large-line-height);
+  --leading-mat-body-medium: var(--mat-sys-body-medium-line-height);
+  --leading-mat-body-small: var(--mat-sys-body-small-line-height);
+  --leading-mat-display-large: var(--mat-sys-display-large-line-height);
+  --leading-mat-display-medium: var(--mat-sys-display-medium-line-height);
+  --leading-mat-display-small: var(--mat-sys-display-small-line-height);
+  --leading-mat-headline-large: var(--mat-sys-headline-large-line-height);
+  --leading-mat-headline-medium: var(--mat-sys-headline-medium-line-height);
+  --leading-mat-headline-small: var(--mat-sys-headline-small-line-height);
+  --leading-mat-label-large: var(--mat-sys-label-large-line-height);
+  --leading-mat-label-medium: var(--mat-sys-label-medium-line-height);
+  --leading-mat-label-small: var(--mat-sys-label-small-line-height);
+  --leading-mat-title-large: var(--mat-sys-title-large-line-height);
+  --leading-mat-title-medium: var(--mat-sys-title-medium-line-height);
+  --leading-mat-title-small: var(--mat-sys-title-small-line-height);
+
+  /* ===========================
+     RADIUS VARIABLES
+     Map Material corner radius tokens.
+     =========================== */
+  --radius-mat-extra-large: var(--mat-sys-corner-extra-large);
+  --radius-mat-extra-large-top: var(--mat-sys-corner-extra-large-top);
+  --radius-mat-extra-small: var(--mat-sys-corner-extra-small);
+  --radius-mat-extra-small-top: var(--mat-sys-corner-extra-small-top);
+  --radius-mat-full: var(--mat-sys-corner-full);
+  --radius-mat-large: var(--mat-sys-corner-large);
+  --radius-mat-large-end: var(--mat-sys-corner-large-end);
+  --radius-mat-large-start: var(--mat-sys-corner-large-start);
+  --radius-mat-large-top: var(--mat-sys-corner-large-top);
+  --radius-mat-medium: var(--mat-sys-corner-medium);
+  --radius-mat-none: var(--mat-sys-corner-none);
+  --radius-mat-small: var(--mat-sys-corner-small);
+
+  /* ===========================
+     SHADOW LEVELS
+     Map Material elevation tokens.
+     =========================== */
+  --shadow-mat-level0: var(--mat-sys-level0);
+  --shadow-mat-level1: var(--mat-sys-level1);
+  --shadow-mat-level2: var(--mat-sys-level2);
+  --shadow-mat-level3: var(--mat-sys-level3);
+  --shadow-mat-level4: var(--mat-sys-level4);
+  --shadow-mat-level5: var(--mat-sys-level5);
+
+  /* ===========================
+     OPACITY STATES
+     Map Material state layer opacity tokens.
+     =========================== */
+  --opacity-mat-dragged: var(--mat-sys-dragged-state-layer-opacity);
+  --opacity-mat-focus: var(--mat-sys-focus-state-layer-opacity);
+  --opacity-mat-hover: var(--mat-sys-hover-state-layer-opacity);
+  --opacity-mat-pressed: var(--mat-sys-pressed-state-layer-opacity);
+}
