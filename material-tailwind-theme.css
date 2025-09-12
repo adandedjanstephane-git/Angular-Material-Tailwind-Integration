@@ -1,5 +1,5 @@
-@theme{
-  /* 
+@theme {
+    /* 
     Angular Material x Tailwind CSS Variable Mapping
     ------------------------------------------------
     This file maps Material Design System tokens (--mat-sys-*) to project-scoped CSS custom properties
@@ -49,11 +49,30 @@
   --color-mat-secondary: var(--mat-sys-secondary);
   --color-mat-secondary-container: var(--mat-sys-secondary-container);
   --color-mat-secondary-fixed: var(--mat-sys-secondary-fixed);
+  --color-mat-secondary-fixed-dim: var(--mat-sys-secondary-fixed-dim);
+  --color-mat-shadow: var(--mat-sys-shadow);
+  --color-mat-surface: var(--mat-sys-surface);
+  --color-mat-surface-bright: var(--mat-sys-surface-bright);
+  --color-mat-surface-container: var(--mat-sys-surface-container);
+  --color-mat-surface-container-high: var(--mat-sys-surface-container-high);
+  --color-mat-surface-container-highest: var(--mat-sys-surface-container-highest);
+  --color-mat-surface-container-low: var(--mat-sys-surface-container-low);
+  --color-mat-surface-container-lowest: var(--mat-sys-surface-container-lowest);
+  --color-mat-surface-dim: var(--mat-sys-surface-dim);
+  --color-mat-surface-tint: var(--mat-sys-surface-tint);
+  --color-mat-surface-variant: var(--mat-sys-surface-variant);
+  --color-mat-tertiary: var(--mat-sys-tertiary);
+  --color-mat-tertiary-container: var(--mat-sys-tertiary-container);
+  --color-mat-tertiary-fixed: var(--mat-sys-tertiary-fixed);
+  --color-mat-tertiary-fixed-dim: var(--mat-sys-tertiary-fixed-dim);
+  --color-mat-neutral-variant20: var(--mat-sys-neutral-variant20);
+  --color-mat-neutral10: var(--mat-sys-neutral10);
 
   /* ===========================
      FONT FAMILY VARIABLES
      Map Material font family tokens.
      =========================== */
+  
   --font-mat-body-large: var(--mat-sys-body-large-font);
   --font-mat-body-medium: var(--mat-sys-body-medium-font);
   --font-mat-body-small: var(--mat-sys-body-small-font);
@@ -74,6 +93,7 @@
      FONT SIZE VARIABLES
      Map Material text size tokens.
      =========================== */
+
   --text-mat-body-large: var(--mat-sys-body-large-size);
   --text-mat-body-medium: var(--mat-sys-body-medium-size);
   --text-mat-body-small: var(--mat-sys-body-small-size);
@@ -94,6 +114,7 @@
      FONT WEIGHT VARIABLES
      Map Material font weight tokens.
      =========================== */
+
   --font-weight-mat-body-large: var(--mat-sys-body-large-weight);
   --font-weight-mat-body-medium: var(--mat-sys-body-medium-weight);
   --font-weight-mat-body-small: var(--mat-sys-body-small-weight);
@@ -116,6 +137,7 @@
      LETTER SPACING (TRACKING)
      Map Material tracking tokens.
      =========================== */
+
   --tracking-mat-body-large: var(--mat-sys-body-large-tracking);
   --tracking-mat-body-medium: var(--mat-sys-body-medium-tracking);
   --tracking-mat-body-small: var(--mat-sys-body-small-tracking);
@@ -136,6 +158,7 @@
      LINE HEIGHT (LEADING)
      Map Material line height tokens.
      =========================== */
+
   --leading-mat-body-large: var(--mat-sys-body-large-line-height);
   --leading-mat-body-medium: var(--mat-sys-body-medium-line-height);
   --leading-mat-body-small: var(--mat-sys-body-small-line-height);
@@ -156,6 +179,7 @@
      RADIUS VARIABLES
      Map Material corner radius tokens.
      =========================== */
+
   --radius-mat-extra-large: var(--mat-sys-corner-extra-large);
   --radius-mat-extra-large-top: var(--mat-sys-corner-extra-large-top);
   --radius-mat-extra-small: var(--mat-sys-corner-extra-small);
@@ -180,10 +204,11 @@
   --shadow-mat-level4: var(--mat-sys-level4);
   --shadow-mat-level5: var(--mat-sys-level5);
 
-  /* ===========================
+   /* ===========================
      OPACITY STATES
      Map Material state layer opacity tokens.
      =========================== */
+
   --opacity-mat-dragged: var(--mat-sys-dragged-state-layer-opacity);
   --opacity-mat-focus: var(--mat-sys-focus-state-layer-opacity);
   --opacity-mat-hover: var(--mat-sys-hover-state-layer-opacity);
