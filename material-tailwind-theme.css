@@ -73,21 +73,21 @@
      Map Material font family tokens.
      =========================== */
   
-  --font-mat-body-large: var(--mat-sys-body-large-font);
-  --font-mat-body-medium: var(--mat-sys-body-medium-font);
-  --font-mat-body-small: var(--mat-sys-body-small-font);
-  --font-mat-display-large: var(--mat-sys-display-large-font);
-  --font-mat-display-medium: var(--mat-sys-display-medium-font);
-  --font-mat-display-small: var(--mat-sys-display-small-font);
-  --font-mat-headline-large: var(--mat-sys-headline-large-font);
-  --font-mat-headline-medium: var(--mat-sys-headline-medium-font);
-  --font-mat-headline-small: var(--mat-sys-headline-small-font);
-  --font-mat-label-large: var(--mat-sys-label-large-font);
-  --font-mat-label-medium: var(--mat-sys-label-medium-font);
-  --font-mat-label-small: var(--mat-sys-label-small-font);
-  --font-mat-title-large: var(--mat-sys-title-large-font);
-  --font-mat-title-medium: var(--mat-sys-title-medium-font);
-  --font-mat-title-small: var(--mat-sys-title-small-font);
+  --font-mat-body-large-family: var(--mat-sys-body-large-font);
+  --font-mat-body-medium-family: var(--mat-sys-body-medium-font);
+  --font-mat-body-small-family: var(--mat-sys-body-small-font);
+  --font-mat-display-large-family: var(--mat-sys-display-large-font);
+  --font-mat-display-medium-family: var(--mat-sys-display-medium-font);
+  --font-mat-display-small-family: var(--mat-sys-display-small-font);
+  --font-mat-headline-large-family: var(--mat-sys-headline-large-font);
+  --font-mat-headline-medium-family: var(--mat-sys-headline-medium-font);
+  --font-mat-headline-small-family: var(--mat-sys-headline-small-font);
+  --font-mat-label-large-family: var(--mat-sys-label-large-font);
+  --font-mat-label-medium-family: var(--mat-sys-label-medium-font);
+  --font-mat-label-small-family: var(--mat-sys-label-small-font);
+  --font-mat-title-large-family: var(--mat-sys-title-large-font);
+  --font-mat-title-medium-family: var(--mat-sys-title-medium-font);
+  --font-mat-title-small-family: var(--mat-sys-title-small-font);
 
   /* ===========================
      FONT SIZE VARIABLES
@@ -115,23 +115,23 @@
      Map Material font weight tokens.
      =========================== */
 
-  --font-weight-mat-body-large: var(--mat-sys-body-large-weight);
-  --font-weight-mat-body-medium: var(--mat-sys-body-medium-weight);
-  --font-weight-mat-body-small: var(--mat-sys-body-small-weight);
-  --font-weight-mat-display-large: var(--mat-sys-display-large-weight);
-  --font-weight-mat-display-medium: var(--mat-sys-display-medium-weight);
-  --font-weight-mat-display-small: var(--mat-sys-display-small-weight);
-  --font-weight-mat-headline-large: var(--mat-sys-headline-large-weight);
-  --font-weight-mat-headline-medium: var(--mat-sys-headline-medium-weight);
-  --font-weight-mat-headline-small: var(--mat-sys-headline-small-weight);
-  --font-weight-mat-label-large: var(--mat-sys-label-large-weight);
-  --font-weight-mat-label-large-prominent: var(--mat-sys-label-large-weight-prominent);
-  --font-weight-mat-label-medium: var(--mat-sys-label-medium-weight);
-  --font-weight-mat-label-medium-prominent: var(--mat-sys-label-medium-weight-prominent);
-  --font-weight-mat-label-small: var(--mat-sys-label-small-weight);
-  --font-weight-mat-title-large: var(--mat-sys-title-large-weight);
-  --font-weight-mat-title-medium: var(--mat-sys-title-medium-weight);
-  --font-weight-mat-title-small: var(--mat-sys-title-small-weight);
+  --font-weight-mat-body-large-weight: var(--mat-sys-body-large-weight);
+  --font-weight-mat-body-medium-weight: var(--mat-sys-body-medium-weight);
+  --font-weight-mat-body-small-weight: var(--mat-sys-body-small-weight);
+  --font-weight-mat-display-large-weight: var(--mat-sys-display-large-weight);
+  --font-weight-mat-display-medium-weight: var(--mat-sys-display-medium-weight);
+  --font-weight-mat-display-small-weight: var(--mat-sys-display-small-weight);
+  --font-weight-mat-headline-large-weight: var(--mat-sys-headline-large-weight);
+  --font-weight-mat-headline-medium-weight: var(--mat-sys-headline-medium-weight);
+  --font-weight-mat-headline-small-weight: var(--mat-sys-headline-small-weight);
+  --font-weight-mat-label-large-weight: var(--mat-sys-label-large-weight);
+  --font-weight-mat-label-large-prominent-weight: var(--mat-sys-label-large-weight-prominent);
+  --font-weight-mat-label-medium-weight: var(--mat-sys-label-medium-weight);
+  --font-weight-mat-label-medium-prominent-weight: var(--mat-sys-label-medium-weight-prominent);
+  --font-weight-mat-label-small-weight: var(--mat-sys-label-small-weight);
+  --font-weight-mat-title-large-weight: var(--mat-sys-title-large-weight);
+  --font-weight-mat-title-medium-weight: var(--mat-sys-title-medium-weight);
+  --font-weight-mat-title-small-weight: var(--mat-sys-title-small-weight);
 
   /* ===========================
      LETTER SPACING (TRACKING)
@@ -214,3 +214,5 @@
   --opacity-mat-hover: var(--mat-sys-hover-state-layer-opacity);
   --opacity-mat-pressed: var(--mat-sys-pressed-state-layer-opacity);
 }
+
+
